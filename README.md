@@ -82,15 +82,14 @@ DOGE/BTC,bid,0.00000043,2500000
 
 ```
 
-
-License
+## License
 This project is open-source and free to use under the MIT License.
+[MIT](https://choosealicense.com/licenses/mit/)
 
-Author
-Created with ❤️ for learning purpose.
-Feel free to contribute or raise issues in the repository.
+## Authors
+- [@NinadGawali](https://github.com/NinadGawali)
 
-Resources
-C++ Documentation
 
-MIT License
+## Resources
+- C++ Documentation
+
