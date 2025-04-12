@@ -8,14 +8,19 @@ A basic cryptocurrency exchange simulation implemented in **C++** using Object-O
 
 The `src/` folder contains the following files:
 
-20200317.csv # Sample historical crypto trading data
-CSVReader.cpp/.h # Utility for parsing CSV files
-MerkelMain.cpp/.h # Core exchange logic and menu interaction
-OrderBook.cpp/.h # Order management (asks/bids)
-OrderBookEntry.cpp/.h # Represents a single entry in the order book
-Wallet.cpp/.h # Simulates user wallet balance and transactions
-main.cpp # Entry point to the console app
-merklerex.exe # Compiled Windows executable
+src/ ├── 20200317.csv # Sample historical crypto trading data
+├── CSVReader.cpp # Utility for parsing CSV files
+├── CSVReader.h # Header for CSVReader class
+├── MerkelMain.cpp # Core exchange logic and menu interaction
+├── MerkelMain.h # Header for MerkelMain class
+├── OrderBook.cpp # Manages orders (asks and bids)
+├── OrderBook.h # Header for OrderBook class
+├── OrderBookEntry.cpp # Represents a single entry in the order book
+├── OrderBookEntry.h # Header for OrderBookEntry class
+├── Wallet.cpp # Simulates user wallet balance and transactions
+├── Wallet.h # Header for Wallet class
+├── main.cpp # Entry point to the console app
+├── merklerex.exe # Compiled Windows executable
 
 
 ---
